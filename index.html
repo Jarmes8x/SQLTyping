@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SQL Typing Test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="input.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-xl shadow-xl w-full max-w-xl">
+    <h1 class="text-2xl font-bold mb-4 text-center">SQL Typing Test</h1>
+
+    <div id="word-box" class="text-xl font-mono mb-4 text-center text-blue-600"></div>
+
+    <input id="input-box"
+           type="text"
+           class="w-full p-3 border rounded-xl text-lg focus:outline-none focus:ring"
+           placeholder="Type here..."
+           autofocus />
+
+    <div class="mt-4 text-center">
+      <p class="text-gray-700">Score: <span id="score">0</span> / 10</p>
+    </div>
+
+    <button id="restart-btn" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 hidden">
+      Restart
+    </button>
+  </div>
+
+  <script src="Srcript.js"> </script>
+</body>
+</html>
